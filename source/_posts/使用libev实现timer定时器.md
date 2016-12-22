@@ -4,6 +4,7 @@ title: 使用libev实现timer定时器
 date: 2016-12-22 12:36:55
 tags: [c,linux,libev,timer]
 categories: [代码开发]
+comments: true
 ---
 
 
@@ -39,7 +40,7 @@ ev_timer_start
 这些接口，来完成定时器功能的封装。
 
 
-##头文件
+## 头文件
 
 ```c
 #ifndef _dims_timer_h_
